@@ -230,7 +230,7 @@ GEM
     kwalify (0.7.2)
     launchy (2.5.2)
       addressable (~> 2.8)
-    libv8 (8.4.255.0)
+    libv8-node (16.19.0.1)
     libyear-bundler (0.5.3)
       bundler (>= 1.14, < 3)
     liquid (4.0.4)
@@ -254,8 +254,8 @@ GEM
     mini_magick (4.11.0)
     mini_mime (1.1.2)
     mini_portile2 (2.8.1)
-    mini_racer (0.3.1)
-      libv8 (~> 8.4.255)
+    mini_racer (0.6.4)
+      libv8-node (~> 16.19.0.0)
     minitest (5.18.0)
     msgpack (1.6.1)
     multi_json (1.15.0)
@@ -516,7 +516,7 @@ DEPENDENCIES
   loofah (~> 2.19.1)
   mime-types (~> 3.4.1)
   mini_magick (~> 4.11.0)
-  mini_racer (~> 0.3.1)
+  mini_racer (~> 0.6.2)
   net-http (~> 0.3.2)
   nokogiri (~> 1.13.10)
   overcommit (~> 0.53.0)
@@ -557,4 +557,5 @@ RUBY VERSION
    ruby 2.6.0p0
 
 BUNDLED WITH
-   2.4.10
+   2.4.22
+
