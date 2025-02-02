@@ -16,3 +16,4 @@ EXPOSE 3000
 COPY docker/scripts/init /scripts/
 
 ENTRYPOINT ["tini", "--", "/app/docker/scripts/entrypoint"]
+#ENTRYPOINT ["/bin/bash"]
